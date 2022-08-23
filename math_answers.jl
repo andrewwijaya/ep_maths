@@ -17,6 +17,13 @@ md"""
 # Page 48
 """
 
+# ╔═╡ 6a9236f9-f2ee-4f61-8499-7b664bcdac7c
+md"""
+Some useful tools I used:
+- Desmos: https://www.desmos.com/calculator. graphing tool
+- MathPapa Algebra Calculator: https://www.mathpapa.com/algebra-calculator.html. You can put your equation in, and evaluate any value.
+"""
+
 # ╔═╡ 402a0fb9-4b0a-4dfb-bd52-9a5f513cfd10
 md"""
 ### Question 7
@@ -579,6 +586,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─a2576042-1ae6-4dd3-850f-8a6d95ac1355
 # ╟─3c70b2a0-22e4-11ed-1dde-d9c4c761a70c
 # ╟─f81ef29d-43ea-4059-811c-1c8cb4d4a097
+# ╟─6a9236f9-f2ee-4f61-8499-7b664bcdac7c
 # ╟─402a0fb9-4b0a-4dfb-bd52-9a5f513cfd10
 # ╟─a58d6da9-8aa8-40f7-9d61-f528754b8dd4
 # ╟─db0fc4a8-1bdc-4da5-8d40-4a581e269091
