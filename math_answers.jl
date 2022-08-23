@@ -250,6 +250,110 @@ $p = 1/2$
 $p = 0.5$
 """
 
+# ╔═╡ 86756022-0a57-4ce7-8a50-600559bdc3c9
+md"""
+# Page 57
+### Question 26
+There is also a mistake here.
+
+$9^{x + 3} > 9^1$
+
+The example in the book is that 
+
+$x+3 > 0$
+
+This is wrong because it is $9^1$ so it should be:
+
+$x+3 > 1$
+$x > 1 - 3$
+$x > -2$
+
+### Question 27
+
+$5^x \leq 5^4$
+$x \leq 4$
+
+### Question 28
+
+$2^{2m-2} \geq 2^{5m+6}$
+$2m-2 \geq 5m+6$
+$2m - 5m \geq 6 +2$
+$-3m \geq 8$
+$m \geq -\frac{8}{3}$
+
+### Question 29
+
+$7^{2y-3} < 7^{5y+6}$
+$2y - 3 < 5y +6$
+$2y - 5y < 6 +3$
+$-3y < 9$
+$y < -\frac{9}{3}$
+$y < -3$
+
+### Question 30
+
+I think this question is wrong.
+
+$\left(\frac{1}{3}\right)^{w+4} \geq \left(\frac{1}{3}\right)^{w-5}$
+
+Sign changes as the coefficient $a$ is less than 1
+
+$w+4 \leq w-5$
+$w \leq w -5 -4$
+$w \leq w -9$
+
+There is no solution for the inequality above, becacuse $w-9$ is strictly smaller than $w$. This question is wrong.
+
+### Question 31
+$\left(\frac{1}{6}\right)^{t+2} \geq \left(\frac{1}{6}\right)^{5t-4}$
+
+Sign changes as the coefficient $a$ is less than 1.
+
+$t+2 \leq 5t-4$
+$t - 5t \leq -4 -2$
+$-4t \leq -6$
+$4t \leq 6$
+$t \leq \frac{6}{4}$
+$t \leq \frac{3}{2}$
+"""
+
+# ╔═╡ cff934a4-0b7c-4c89-9243-761a49ffddf2
+md"""
+# Page 59
+
+I only plotted the graph for all these questions, to fill the table you can just use your calculator.
+
+### Question 1
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page59_question_1.jpg"))
+
+### Question 2
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page59_question_2.jpg"))
+
+# Page 60
+### Question 3
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page60_question_3.jpg"))
+
+# Page 61
+### Question 4
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page61_question_4.jpg"))
+
+### Question 5
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page61_question_5.jpg"))
+
+# Page 62
+### Question 6
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_6.jpg"))
+
+### Question 7
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_7.jpg"))
+
+### Question 8
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_8.jpg"))
+
+### Question 9
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_9.jpg"))
+"""
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -482,5 +586,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─f71f9330-196f-48b4-85c6-e4e94041e959
 # ╟─e4ad7c78-d77a-4f2e-9d17-fb9888b1ff5f
 # ╟─ec70bb36-788d-4746-8d4e-f7f8f8be7455
+# ╟─86756022-0a57-4ce7-8a50-600559bdc3c9
+# ╟─cff934a4-0b7c-4c89-9243-761a49ffddf2
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
