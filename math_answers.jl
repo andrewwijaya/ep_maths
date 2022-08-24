@@ -361,6 +361,102 @@ $(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_8.jpg
 $(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_9.jpg"))
 """
 
+# ╔═╡ 2b6e20c2-84ae-4041-9059-576a83eb8cbb
+md"""
+# Page 63
+### Question 10
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page63_question_10.jpg"))
+
+# Page 64
+### Question 11
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page64_question_11.jpg"))
+
+### Question 12
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page64_question_12.jpg"))
+
+# Page 66
+Piecewise functions, the intersect and reflection points are marked on the graph. If you need to fill in the tables in your workbook, just plug in the x values into your calculator, should be easy.
+
+### Question 13
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_13.jpg"))
+
+### Question 14
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_14.jpg"))
+
+### Question 15
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_15.jpg"))
+"""
+
+# ╔═╡ 562686fd-8d9d-45f0-b938-befd868c63c4
+md"""
+# Page 68
+## Exercise 2.3
+### Question 2
+$(f-g)(x) = (5x + 2) - (x-6)$
+$=5x - x +2 -6$
+$=4x -4$
+If $x=-2$, then...
+
+$(f-g)(-2) = 4(-2) - 4$
+$= -8 - 4$
+$= -12$
+
+### Question 3
+$(sr)(m) = m\cdot(m+5)$
+$= m^2 + 5m$
+
+If $m=-4$, then...
+
+$(sr)(-4) =(-4)^2 + 5(-4)$
+$= 16 + (-20)$
+$= -4$
+
+### Question 4
+$\left(\frac{q}{p}\right)(t) = \frac{t+1}{t-1}$
+$\left(\frac{q}{p}\right)(7) = \frac{7+1}{7-1}$
+$= \frac{8}{6}$
+$= \frac{4}{3}$
+
+### Question 5
+$(g+f)(a) = a + (-2a -1)$
+$= -a -1$
+$(g+f)(-3) = -(-3) -1$
+$= 3 -1$
+$= 2$
+
+### Question 6
+$(h-g)(n) = (3n + 1) - (-5n -6)$
+$= 3n + 1 + 5n + 6$
+$= 8n + 7$
+$(h-g)(2) = 8(2) + 7$
+$= 16 + 7$
+$= 23$
+
+### Question 7
+$(sr)(n) = (n+1)\cdot(2n+1)$
+$(sr)(-1) = (-1 + 1) \cdot (2(-1) + 1)$
+$= (0) \cdot (-1)$
+$= 0$
+
+### Question 8
+$\left(\frac{q}{p}\right)(b) = \frac{b-8}{b-4}$
+$\left(\frac{q}{p}\right)(-3) = \frac{-3-8}{-3-4}$
+$= \frac{-11}{-7}$
+$= \frac{11}{7}$
+
+### Question 9
+$(f+g)(x) = (x+7)+(x+1)$
+$(f+g)(-2) = (-2+7)+(-2+1)$
+$= 5 + (-1)$
+$= 4$
+
+### Question 10
+$(h-g)(t) = (3t+5)-2t$
+$= t + 5$
+$(h-g)(4) = 4 + 5$
+$= 9$
+"""
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -596,5 +692,7 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─ec70bb36-788d-4746-8d4e-f7f8f8be7455
 # ╟─86756022-0a57-4ce7-8a50-600559bdc3c9
 # ╟─cff934a4-0b7c-4c89-9243-761a49ffddf2
+# ╟─2b6e20c2-84ae-4041-9059-576a83eb8cbb
+# ╟─562686fd-8d9d-45f0-b938-befd868c63c4
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
