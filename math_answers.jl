@@ -457,6 +457,511 @@ $(h-g)(4) = 4 + 5$
 $= 9$
 """
 
+# ╔═╡ fc7c5de7-66d9-4ffd-8970-3183e40472b4
+md"""
+# Page 69
+## Question 11
+$(rs)(w) = (-3w -1) \cdot (w-5)$
+$(rs)(-3) = (-3(-3) -1) \cdot (-3 -5)$
+$= (9-1) \cdot (-8)$
+$= 8 \times -8$
+$=-64$
+
+## Question 12
+$\left(\frac{p}{q}\right)(r) = \frac{r-12}{2r+6}$
+$\left(\frac{p}{q}\right)(2) = \frac{2-12}{2(2)+6}$
+$=\frac{-10}{10}$
+$=-1$
+
+## Question 13
+$(f \circ g)(x) = (x-1) +2$
+$(f \circ g)(-2) = (-2-1) +2$
+$= -3 + 2$
+$= -1$
+
+$(g \circ f)(x) = (x+2)-1$
+$(g \circ f)(3) = (3+2)-1$
+$= 4$
+
+## Question 14
+$(g \circ h)(w) = (w-3)-1$
+$(g \circ h)(3) = (3-3)-1$
+$= (0)-1$
+$=0$
+
+$(h \circ g)(w) = (w-1)-3$
+$(h \circ g)(-2) = (-2-1)-3$
+$=-3-3$
+$=-6$
+"""
+
+# ╔═╡ d33ffdab-9005-48d7-abaf-10a4d34ca71e
+md"""
+# Page 70
+Example page.
+
+# Page 71
+## Question 15
+$f(x) =x-2$
+$y = x-2$
+$y+2 = x$
+$x+2 = y$
+$f^{-1}(x) = x+2$
+.
+
+$g(x) = x+4$
+$y = x+4$
+$y-4 = x$
+$x-4 = y$
+$g^{-1}(x) = x-4$
+.
+
+$(f \circ g)^{-1}(x) = (x-4)+2$
+$=x-2$
+.
+
+$(g^{-1} \circ f^{-1})(x) = (x+2)-4$
+$=x-2$
+"""
+
+# ╔═╡ cb0c4fe4-ce4f-4d74-a6aa-a2869a172b06
+md"""
+## Question 16
+$f(x)=2x-3$
+$y=2x-3$
+$y+3 = 2x$
+$\frac{y+3}{2} = x$
+$\frac{x+3}{2} = y$
+$f^{-1}(x) = \frac{x+3}{2}$
+.
+
+$g(x) = x+2$
+$y=x+2$
+$y-2 =x$
+$x-2=y$
+$g^{-1}(x) =x-2$
+.
+
+$f^{-1}(1) = \frac{x+3}{2}$
+$f^{-1}(1) = \frac{1+3}{2}$
+$= \frac{4}{2}$
+$=2$
+.
+
+$f^{-1}(2) = \frac{2+3}{2}$
+$f^{-1}(2) = \frac{5}{2}$
+$=2.5$
+"""
+
+# ╔═╡ 574cd63d-33ca-43c7-bb31-f7720da6a184
+md"""
+# Page 73
+## Chapter 2 Test
+### Question 1
+$f(-1) = (2^x)$
+$=2^{-1}$
+$=\frac{1}{2^1}$
+$=\frac{1}{2}$
+
+### Question 2
+$g(3) = 5^x$
+$=5^3$
+$=125$
+
+### Question 3
+$h(3) = (3^x)$
+$=3^3$
+$=27$
+
+### Question 4
+$y=2^x$
+
+|x  | y |
+|---|---|
+|-2|0.25|
+|-1|0.5|
+|0 |1|
+|1 |2|
+|2|4|
+|3|8|
+|4|16|
+
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page73_question_4.jpg"))
+
+"""
+
+# ╔═╡ 3fada5c7-17d1-47c6-b1fe-400d7545311a
+md"""
+### Question 5
+$y=2^{-x}$
+|x  | y |
+|---|---|
+|-1|2|
+|0 |1|
+|1 |0.5|
+|2|0.25|
+|3|0.125|
+|4|0.0625|
+|5|0.03125|
+
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page73_question_5.jpg"))
+
+"""
+
+# ╔═╡ b8f64f6f-f476-4b9a-ab14-3335e63c854b
+md"""
+### Question 6
+$2^{2x} = 2^{3x-7}$
+$2x = 3x-7$
+$2x -3x = -7$
+$-x = -7$
+$x=7$
+
+### Question 7
+$3^{6n} = 3^{n+5}$
+$6n = n+5$
+$6n -n = 5$
+$5n = 5$
+$n = 1$
+
+### Question 8
+$\frac{1}{4^{m-2}} = 4^{2m-5}$
+$4^{-(m-2)} = 4^{2m-5}$
+$4^{-m+2)} = 4^{2m-5}$
+$-m+2 = 2m-5$
+$-m -2m = -5 -2$
+$-3m = -7$
+$m = \frac{-7}{-3}$
+$m = \frac{7}{3}$
+
+### Question 9
+$5^x \cdot 5^3 = 5^{-2}$
+$x+3=-2$
+$x = -2 -3$
+$x = -5$
+"""
+
+# ╔═╡ 4487a14c-3f89-43f7-bde2-25ee277f7f64
+md"""
+### Question 10
+$3^{-2x} \cdot 5^{-2x} = 15^{x-6}$
+$15^{-2x} = 15^{x-6}$
+$-2x = x-6$
+$-2x -x = -6$
+$-3x = -6$
+$3x = 6$
+$x = \frac{6}{3}$
+$x=2$
+
+### Question 11
+$3^x < 3^2$
+$x < 2$
+
+### Question 12
+$5^{2x-6} \geq 5^{x-10}$
+$2x-6 \geq x-10$
+$2x-x \geq -10 +6$
+$x \geq -4$
+
+### Question 13
+$(1)^{x+1} < (1)^{2x+3}$
+$x+1 < 2x+3$
+$1-3 < 2x -x$
+$-2 < x$
+$x > -2$
+
+### Question 14
+$f(x) = \sqrt{x+2}$
+|x  | y |
+|---|---|
+|-2|0|
+|-1 |1|
+|0|1.414214|
+|1|1.732051|
+|2|2|
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page74_question_14.jpg"))
+"""
+
+# ╔═╡ 2f779470-9aff-42a2-9156-f718267f428b
+md"""
+# Page 75
+### Question 15
+This question is exactly the same as the previous, question 14.
+
+### Functions for the next questions
+$f(x) = x-1$
+$g(x) = x+5$
+
+### Question 16
+$(f+g)(x) = (x-1) + (x+5)$
+$(f+g)(1) = (1-1) + (1+5)$
+$= (0) + (6)$
+$=6$
+
+### Question 17
+$(f-g)(x) = (x-1) - (x+5)$
+$(f-g)(-2) = (-2-1) - (-2+5)$
+$= (-3) - (3)$
+$=-6$
+
+### Question 18
+$(fg)(x) = (x-1)\cdot (x+5)$
+$(fg)(-1) = (-1-1)\cdot (-1+5)$
+$(fg)(-1) = (-2)\cdot (4)$
+$= -8$
+
+### Question 19
+$\frac{g}{f}(x) = \frac{x+5}{x-1}$
+$\frac{g}{f}(3) = \frac{3+5}{3-1}$
+$= \frac{8}{2}$
+$= 4$
+"""
+
+# ╔═╡ b48ff275-bf4d-45d1-bfb5-309ef6d67cae
+md"""
+### Functions for the next questions
+$f(x) = x+2$
+$g(x) = 2x-1$
+
+### Question 20
+$(f \circ g)(x) = (2x-1) + 2$
+$(f \circ g)(2) = (2(2)-1) + 2$
+$=4 -1 +2$
+$=5$
+
+### Question 21
+$(g \circ f)(x) = 2(x+2) -1$
+$(g \circ f)(-1) = 2((-1)+2) -1$
+$= 2(1) -1$
+$=1$
+
+### Question 22
+$r(x) = x-2$
+$y = x-2$
+$y + 2 = x$
+$x +2 =y$
+$r^{-1}(x) = x+2$
+. 
+
+$s(x) = x+4$
+$y = x+4$
+$y-4 = x$
+$x-4 = y$
+$s^{-1}(x) = x-4$
+.
+
+$s^{-1}(2) = 2-4$
+$=-2$
+"""
+
+# ╔═╡ 64304f70-1039-4347-ba7b-8df1c4a9fa72
+md"""
+# Page 76
+Just explanations
+# Page 77
+### Question 1
+Given
+
+$x+2(x-3) =24$
+
+Distributive
+
+$x+2x-6 = 24$
+
+Simplify
+
+$3x-6=24$
+
+Addition
+
+$3x-6+6=24+6$
+$3x =30$
+
+Division
+
+$3x \div3 = 30 \div 3$
+$x = 10$
+"""
+
+# ╔═╡ 3286274b-f793-4ac6-88e5-3de492e3207d
+md"""
+### Question 2
+Given
+
+$\frac{1}{4}x +3 =2$
+Subtraction
+
+$\frac{1}{4}x +3 -3 =2 -3$
+$\frac{1}{4}x = -1$
+
+Multiplication
+
+$\frac{1}{4}x (4)= -1 (4)$
+$x = -4$
+
+### Question 3
+Given
+
+$x-5 = 3(x+2) +1$
+
+Distributive
+
+$x-5 = 3x+6 +1$
+
+Simplify
+
+$x-5 = 3x+7$
+
+Subtraction
+
+$x-x-5 = 3x-x+7$
+$-5 = 2x +7$
+
+Subtraction
+
+$-5 -7= 2x +7 -7$
+$-12 = 2x$
+
+Division
+
+$-12 \div 2= 2x \div 2$
+$-6 = x$
+$x = -6$
+
+### Question 4
+Given
+
+$8x - 6 = 2(x+2)$
+
+Distributive
+
+$8x - 6 = 2x+4$
+
+Subtraction
+
+$8x -2x - 6 = 2x - 2x+4$
+$6x - 6 = 4$
+
+Addition
+
+$6x - 6 +6 = 4 +6$
+$6x = 10$
+
+Division
+
+$6x \div 6 = 10 \div 6$
+$x = \frac{10}{6}$
+
+Simplify
+
+$x = \frac{5}{3}$
+"""
+
+# ╔═╡ 6d44c42d-8e29-4bb0-8c5a-8f13d7c828c2
+md"""
+# Page 78
+### Question 5
+Given
+
+$x+x=\frac{5}{6}$
+
+Simplify
+
+$2x=\frac{5}{6}$
+
+Division
+
+$2x \div 2=\frac{5}{6} \div 2$
+$x=\frac{5}{12}$
+
+### Question 6
+Given
+
+$2x-1 = x+3$
+
+Subtraction
+
+$2x -x -1 = x-x+3$
+$x -1 = 3$
+
+Addition
+
+$x -1 +1 = 3 +1$
+$x = 4$
+"""
+
+# ╔═╡ 2c31e4a0-7e44-47df-9906-efdb51d8f88f
+md"""
+# Page 79
+### Question 7
+Already answered in the book.
+
+### Question 8
+1. Given
+2. Distributive property
+3. Subtraction property
+4. Subtraction property
+5. Division property
+
+### Question 9
+1. Given
+2. Distributive property
+3. Addition property
+4. Division property
+
+### Question 10
+It is given that $3x -6 = 5x+2$. By subtraction property, subtract $3x$ from both sides, resulting in $-6 = 2x +2 $. By the subtraction property, subtract $2$ from both sides, resulting in $-8 = 2x$. By the division property, divide both sides by $2$. The final result is $x = -4$.
+
+### Question 11
+It is given that $2(x-1) = 3(2x+2)$. By distributive property, on the left hand side, multiply in the $2$, and on the right hands side multiply in the $3$. Resulting in: $2x - 2 = 6x +6$. By the subtraction property, subtract $2x$ from both sides, resulting in: $-2 = 4x +6$. Again by the subtraction property, subtract $6$ from both sides, resulting in $-8 = 4x$. Finally by the divison property, divide both sides by $4$, resulting in: $x = -2$.
+
+### Question 12
+It is given that $2(x-4)= 6$. By the distributive property, multiply in $2$, on the left hand side, resulting in $2x -8 = 6$. By the addition property, add $8$ on both sides, resulting in $2x = 14$. Finally by the divison property, divide both sides by $2$, resulting in: $x=7$.
+"""
+
+# ╔═╡ c334a3bb-0dc2-4385-8fb9-aa55b34e9f47
+md"""
+### Question 13
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_13.jpg"))
+### Question 14
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_14.jpg"))
+### Question 15
+$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_15.jpg"))
+
+"""
+
+# ╔═╡ ad323545-93b8-4090-a75f-73d7e1b19e53
+md"""
+# Chapter 1 Test
+## Question 3
+The question states the area is 360, but the example shows $A = 90$, which I think is a typo. So if we use 360, the answer is as follows:
+
+$360 = (4x +4) \cdot 3x$
+$360 = 12x^2 + 12x$
+
+Divide everything by 12.
+
+$30 = x^2 + x$
+
+Complete the square.
+
+$x^2 + x - 30 = 0$
+$(x - 5) (x + 6) = 0$
+
+For the above equation to be $=0$, then $x$ must either be $5$, or $-6$.
+
+Check the discriminant:
+
+$b^2 - 4ac$
+$1^2 -4 (1)(-30)$
+$1 + 120$
+$121$
+
+The discriminant is positive, meaning there are two solutions. As shown above, the solutions are $x=5$, and $x=-6$.
+!!! warning "Note"
+	If the result of the discriminant equation $a^2 - 4ac$ is positive, then there are two solutions. If it is negative, then there are no solutions, if it is exactly $0$ then there is exactly one solution.
+"""
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -694,5 +1199,20 @@ uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
 # ╟─cff934a4-0b7c-4c89-9243-761a49ffddf2
 # ╟─2b6e20c2-84ae-4041-9059-576a83eb8cbb
 # ╟─562686fd-8d9d-45f0-b938-befd868c63c4
+# ╟─fc7c5de7-66d9-4ffd-8970-3183e40472b4
+# ╟─d33ffdab-9005-48d7-abaf-10a4d34ca71e
+# ╟─cb0c4fe4-ce4f-4d74-a6aa-a2869a172b06
+# ╟─574cd63d-33ca-43c7-bb31-f7720da6a184
+# ╟─3fada5c7-17d1-47c6-b1fe-400d7545311a
+# ╟─b8f64f6f-f476-4b9a-ab14-3335e63c854b
+# ╟─4487a14c-3f89-43f7-bde2-25ee277f7f64
+# ╟─2f779470-9aff-42a2-9156-f718267f428b
+# ╟─b48ff275-bf4d-45d1-bfb5-309ef6d67cae
+# ╟─64304f70-1039-4347-ba7b-8df1c4a9fa72
+# ╟─3286274b-f793-4ac6-88e5-3de492e3207d
+# ╟─6d44c42d-8e29-4bb0-8c5a-8f13d7c828c2
+# ╟─2c31e4a0-7e44-47df-9906-efdb51d8f88f
+# ╟─c334a3bb-0dc2-4385-8fb9-aa55b34e9f47
+# ╟─ad323545-93b8-4090-a75f-73d7e1b19e53
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
