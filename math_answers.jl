@@ -1,11 +1,15 @@
 ### A Pluto.jl notebook ###
-# v0.19.9
+# v0.19.11
 
 using Markdown
 using InteractiveUtils
 
 # ╔═╡ a2576042-1ae6-4dd3-850f-8a6d95ac1355
 using PlutoUI
+
+# ╔═╡ d3ce1fac-5173-434f-beff-dfe386482acc
+# Change this path to the root of the ep_maths directory
+path_to_folder = "C:\\Users\\Hp\\andrew_wijaya\\ep_maths"
 
 # ╔═╡ 3c70b2a0-22e4-11ed-1dde-d9c4c761a70c
 md"""
@@ -27,9 +31,9 @@ Some useful tools I used:
 # ╔═╡ 402a0fb9-4b0a-4dfb-bd52-9a5f513cfd10
 md"""
 ### Question 7
-Plot this into your graph paper. I used an online tool called desmos.com to plot it. $(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\question_7.jpg"))
+Plot this into your graph paper. I used an online tool called desmos.com to plot it. $(LocalResource(string(path_to_folder, "\\question_7.jpg")))
 ### Question 8
-Plot this into your graph paper. $(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\question_8.jpg"))
+Plot this into your graph paper. $(LocalResource(string(path_to_folder, "\\question_8.jpg")))
 ### Question 9 
 General equation of a circle: $(x - a)^2 + (y - b)^2 = r^2$
 
@@ -159,13 +163,13 @@ md"""
 md"""
 # Page 54
 ### Question 13
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\question_13.jpg"))
+$(LocalResource(string(path_to_folder, "\\question_13.jpg"))))
 
 ### Question 14
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\question_14.jpg"))
+$(LocalResource(string(path_to_folder, "\\question_14.jpg")))
 
 ### Question 15
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\question_15.jpg"))
+$(LocalResource(string(path_to_folder, "\\question_15.jpg")))
 """
 
 # ╔═╡ ec70bb36-788d-4746-8d4e-f7f8f8be7455
@@ -331,60 +335,60 @@ md"""
 I only plotted the graph for all these questions, to fill the table you can just use your calculator.
 
 ### Question 1
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page59_question_1.jpg"))
+$(LocalResource(string(path_to_folder, "\\page59_question_1.jpg"))))
 
 ### Question 2
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page59_question_2.jpg"))
+$(LocalResource(string(path_to_folder, "\\page59_question_2.jpg"))))
 
 # Page 60
 ### Question 3
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page60_question_3.jpg"))
+$(LocalResource(string(path_to_folder, "\\page60_question_3.jpg"))))
 
 # Page 61
 ### Question 4
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page61_question_4.jpg"))
+$(LocalResource(string(path_to_folder, "\\page61_question_4.jpg"))))
 
 ### Question 5
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page61_question_5.jpg"))
+$(LocalResource(string(path_to_folder, "\\page61_question_5.jpg"))))
 
 # Page 62
 ### Question 6
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_6.jpg"))
+$(LocalResource(string(path_to_folder, "\\page62_question_6.jpg"))))
 
 ### Question 7
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_7.jpg"))
+$(LocalResource(string(path_to_folder, "\\page62_question_7.jpg"))))
 
 ### Question 8
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_8.jpg"))
+$(LocalResource(string(path_to_folder, "\\page62_question_8.jpg"))))
 
 ### Question 9
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page62_question_9.jpg"))
+$(LocalResource(string(path_to_folder, "\\page62_question_9.jpg"))))
 """
 
 # ╔═╡ 2b6e20c2-84ae-4041-9059-576a83eb8cbb
 md"""
 # Page 63
 ### Question 10
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page63_question_10.jpg"))
+$(LocalResource(string(path_to_folder, "\\page63_question_10.jpg"))))
 
 # Page 64
 ### Question 11
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page64_question_11.jpg"))
+$(LocalResource(string(path_to_folder, "\\page64_question_11.jpg"))))
 
 ### Question 12
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page64_question_12.jpg"))
+$(LocalResource(string(path_to_folder, "\\page64_question_12.jpg"))))
 
 # Page 66
 Piecewise functions, the intersect and reflection points are marked on the graph. If you need to fill in the tables in your workbook, just plug in the x values into your calculator, should be easy.
 
 ### Question 13
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_13.jpg"))
+$(LocalResource(string(path_to_folder, "\\page66_question_13.jpg"))))
 
 ### Question 14
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_14.jpg"))
+$(LocalResource(string(path_to_folder, "\\page66_question_14.jpg"))))
 
 ### Question 15
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page66_question_15.jpg"))
+$(LocalResource(string(path_to_folder, "\\page66_question_15.jpg"))))
 """
 
 # ╔═╡ 562686fd-8d9d-45f0-b938-befd868c63c4
@@ -586,7 +590,7 @@ $y=2^x$
 |3|8|
 |4|16|
 
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page73_question_4.jpg"))
+$(LocalResource(string(path_to_folder, "\\page73_question_4.jpg"))))
 
 """
 
@@ -604,7 +608,7 @@ $y=2^{-x}$
 |4|0.0625|
 |5|0.03125|
 
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page73_question_5.jpg"))
+$(LocalResource(string(path_to_folder, "\\page73_question_5.jpg"))))
 
 """
 
@@ -679,7 +683,7 @@ $f(x) = \sqrt{x+2}$
 |0|1.414214|
 |1|1.732051|
 |2|2|
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page74_question_14.jpg"))
+$(LocalResource(string(path_to_folder, "\\page74_question_14.jpg"))))
 """
 
 # ╔═╡ 2f779470-9aff-42a2-9156-f718267f428b
@@ -922,11 +926,11 @@ It is given that $2(x-4)= 6$. By the distributive property, multiply in $2$, on 
 # ╔═╡ c334a3bb-0dc2-4385-8fb9-aa55b34e9f47
 md"""
 ### Question 13
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_13.jpg"))
+$(LocalResource(string(path_to_folder, "\\page80_question_13.jpg"))))
 ### Question 14
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_14.jpg"))
+$(LocalResource(string(path_to_folder, "\\page80_question_14.jpg"))))
 ### Question 15
-$(LocalResource("C:\\Users\\andre\\Desktop\\maths_answers\\page80_question_15.jpg"))
+$(LocalResource(string(path_to_folder, "\\page80_question_15.jpg"))))
 
 """
 
@@ -975,8 +979,9 @@ PlutoUI = "~0.7.39"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.7.1"
+julia_version = "1.8.1"
 manifest_format = "2.0"
+project_hash = "6ff2529dffd0652d0349be095d4d180abf958f56"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
@@ -986,6 +991,7 @@ version = "1.1.4"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
+version = "1.1.1"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
@@ -1002,14 +1008,19 @@ version = "0.11.4"
 [[deps.CompilerSupportLibraries_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
+version = "0.5.2+0"
 
 [[deps.Dates]]
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 [[deps.Downloads]]
-deps = ["ArgTools", "LibCURL", "NetworkOptions"]
+deps = ["ArgTools", "FileWatching", "LibCURL", "NetworkOptions"]
 uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+version = "1.6.0"
+
+[[deps.FileWatching]]
+uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[deps.FixedPointNumbers]]
 deps = ["Statistics"]
@@ -1048,10 +1059,12 @@ version = "0.21.3"
 [[deps.LibCURL]]
 deps = ["LibCURL_jll", "MozillaCACerts_jll"]
 uuid = "b27032c2-a3e7-50c8-80cd-2d36dbcbfd21"
+version = "0.6.3"
 
 [[deps.LibCURL_jll]]
 deps = ["Artifacts", "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Zlib_jll", "nghttp2_jll"]
 uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+version = "7.84.0+0"
 
 [[deps.LibGit2]]
 deps = ["Base64", "NetworkOptions", "Printf", "SHA"]
@@ -1060,6 +1073,7 @@ uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
 [[deps.LibSSH2_jll]]
 deps = ["Artifacts", "Libdl", "MbedTLS_jll"]
 uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
+version = "1.10.2+0"
 
 [[deps.Libdl]]
 uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -1078,19 +1092,23 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 [[deps.MbedTLS_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+version = "2.28.0+0"
 
 [[deps.Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
+version = "2022.2.1"
 
 [[deps.NetworkOptions]]
 uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
+version = "1.2.0"
 
 [[deps.OpenBLAS_jll]]
 deps = ["Artifacts", "CompilerSupportLibraries_jll", "Libdl"]
 uuid = "4536629a-c528-5b80-bd46-f80d51c5b363"
+version = "0.3.20+0"
 
 [[deps.Parsers]]
 deps = ["Dates"]
@@ -1101,6 +1119,7 @@ version = "2.3.2"
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "Serialization", "TOML", "Tar", "UUIDs", "p7zip_jll"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+version = "1.8.0"
 
 [[deps.PlutoUI]]
 deps = ["AbstractPlutoDingetjes", "Base64", "ColorTypes", "Dates", "Hyperscript", "HypertextLiteral", "IOCapture", "InteractiveUtils", "JSON", "Logging", "Markdown", "Random", "Reexport", "UUIDs"]
@@ -1127,6 +1146,7 @@ version = "1.2.2"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
+version = "0.7.0"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
@@ -1145,10 +1165,12 @@ uuid = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 [[deps.TOML]]
 deps = ["Dates"]
 uuid = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+version = "1.0.0"
 
 [[deps.Tar]]
 deps = ["ArgTools", "SHA"]
 uuid = "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+version = "1.10.0"
 
 [[deps.Test]]
 deps = ["InteractiveUtils", "Logging", "Random", "Serialization"]
@@ -1169,22 +1191,27 @@ uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
 uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
+version = "1.2.12+3"
 
 [[deps.libblastrampoline_jll]]
 deps = ["Artifacts", "Libdl", "OpenBLAS_jll"]
 uuid = "8e850b90-86db-534c-a0d3-1478176c7d93"
+version = "5.1.1+0"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
+version = "1.48.0+0"
 
 [[deps.p7zip_jll]]
 deps = ["Artifacts", "Libdl"]
 uuid = "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
+version = "17.4.0+0"
 """
 
 # ╔═╡ Cell order:
-# ╟─a2576042-1ae6-4dd3-850f-8a6d95ac1355
+# ╠═a2576042-1ae6-4dd3-850f-8a6d95ac1355
+# ╠═d3ce1fac-5173-434f-beff-dfe386482acc
 # ╟─3c70b2a0-22e4-11ed-1dde-d9c4c761a70c
 # ╟─f81ef29d-43ea-4059-811c-1c8cb4d4a097
 # ╟─6a9236f9-f2ee-4f61-8499-7b664bcdac7c
