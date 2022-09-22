@@ -966,6 +966,674 @@ The discriminant is positive, meaning there are two solutions. As shown above, t
 	If the result of the discriminant equation $a^2 - 4ac$ is positive, then there are two solutions. If it is negative, then there are no solutions, if it is exactly $0$ then there is exactly one solution.
 """
 
+# ╔═╡ bffe444c-9a0e-4354-9541-ac487f0e0334
+md"""
+# Page 91
+!!! warning "Note"
+	For these questions the steps are:
+	- Find the slope, if the keyword is 'parallel'. Then the actual line has the same slope. If 'perpendicular' you need to find the negative reciprocal of the slope.
+	- The negative reciprocal formula is: $-\frac{1}{x}$, where $x$ is the slope of the line. The negative reciprocal of the slope value gives the slope of the perpendicular line.
+	- Then use the point-slope formula and rearrange for $y$ to get the formula of the line.
+	- Slope equation is: $m = \frac{y_2-y_1}{x_2-x_1}$. We can rearrange to $m(x_2-x_1) = y_2 - y_1$
+I will explain in better detail below for only the first question.
+### Question 9
+ $y=\frac{2}{1}x -5$, passes through $(2,3)$
+
+The formula above is already in the slope form $y= mx + c$, so the slope of that line is clearly $\frac{2}{1}$. But since the line we want is perpendicular to this line, we have to find the negative reciprocal.
+
+Negative reciprocal = $-\frac{1}{\frac{2}{1}} = -\frac{1}{2}$
+
+Point passes through $(2,3)$ which are $x$ and $y$ values respectively. Substitute into the slope equation.
+
+ $-\frac{1}{2}(x-2) = y - 3$
+
+Simplify...
+
+ $-\frac{1}{2}x+1 = y - 3$
+
+ $-\frac{1}{2}x+1+3 = y$
+
+ $-\frac{1}{2}x+4 = y$
+
+The final answer, the equation of the perpendicular line is:
+
+ $y = -\frac{1}{2}x+4$
+"""
+
+# ╔═╡ d7f4391c-3f29-4556-b904-5ae1b0835bf7
+md"""
+### Question 10
+Already answered in the book.
+### Question 11
+Parallel to $y=-\frac{2}{5}x-7$ and passes through $(4,2)$.
+
+ $y-y_1 = m(x-x_1)$
+
+ $y-2 = -\frac{2}{5}(x-4)$
+
+ $y-2 = -0.4x+1.6$
+
+ $y = -0.4x+3.6$
+"""
+
+# ╔═╡ 2793db6e-cb57-49f4-b83a-cbc2b1b58af0
+md"""
+### Question 12
+Perpendicular to $y=\frac{3}{1}x - 6$, and passes through $(-2,1)$
+
+ $m_{perpendicular} = -\frac{1}{3}$
+
+ $y-y_1 = m(x-x_1)$
+
+ $y-1 = -\frac{1}{3}(x-(-2))$
+
+ $y-1 = -\frac{1}{3}(x+2))$
+
+ $y-1 = -\frac{1}{3}x-\frac{2}{3}$
+
+ $y= -\frac{1}{3}x-\frac{2}{3} + 1$
+
+ $y= -\frac{1}{3}x-\frac{2}{3} + \frac{3}{3}$
+
+ $y= -\frac{1}{3}x+\frac{1}{3}$
+"""
+
+# ╔═╡ 71f885db-f876-43f2-9d31-62740d27f2c0
+md"""
+### Question 13
+Parallel to $y=-\frac{1}{4}x - 5$, and passes through $(-3,5)$
+
+ $m_{parallel} = -\frac{1}{4}$
+
+ $y-y_1 = m(x-x_1)$
+
+ $y-5 = -\frac{1}{4}(x-(-3))$
+
+ $y-5 = -\frac{1}{4}(x+3))$
+
+ $y-5 = -\frac{1}{4}x-\frac{3}{4}$
+
+ $y-5 = -\frac{1}{4}x-0.75$
+
+ $y= -\frac{1}{4}x-0.75 +5$
+
+ $y= -\frac{1}{4}x + 4.25$
+
+"""
+
+# ╔═╡ 5128a20c-dd1d-4ea6-84c4-9ccea16fb76f
+md"""
+### Question 14
+Perpendicular to $y=\frac{1}{2}x - 8$, and passes through $(-4,4)$
+
+ $m_{perpendicular} = -\frac{1}{\frac{1}{2}}$
+
+ $m_{perpendicular} = -2$
+
+ $y-y_1 = m(x-x_1)$
+
+ $y-4 = -2(x-(-4))$
+
+ $y-4 = -2(x+4)$
+
+ $y-4 = -2x-8$
+
+ $y = -2x-8 +4$
+
+ $y = -2x-4$
+"""
+
+# ╔═╡ 38727f99-2516-475d-8f44-4607ad58a343
+md"""
+### Question 15
+Perpendicular to $y=\frac{3}{4}x - 6$, and passes through $(3,-1)$
+
+ $m_{perpendicular} = -\frac{1}{\frac{3}{4}}$
+
+ $m_{perpendicular} = -\frac{4}{3}$
+
+ $y-(-1) = -\frac{4}{3}(x-3)$
+
+ $y+1 = -\frac{4}{3}x+\frac{12}{3}$
+
+ $y+1 = -\frac{4}{3}x+4$
+
+ $y = -\frac{4}{3}x+4-1$
+
+ $y = -\frac{4}{3}x+3$
+"""
+
+# ╔═╡ 8ba803b6-e18e-4014-8841-603d7d98c13d
+md"""
+# Page 92
+### Question 16
+$(LocalResource(string(path_to_folder, "\\page92_question_16.jpg")))
+
+The lines are perpendicular.
+"""
+
+# ╔═╡ d5c7b172-210b-44c4-8134-870787e24ea6
+md"""
+ $x+2y+2=0$
+
+Rearrange for $y$:
+
+ $y=\frac{-x -2}{2}$
+
+|x  | y |
+|---|---|
+|0|-1|
+|1|-1.5|
+
+ $2x-y+7=0$
+
+Rearrange for $y$:
+
+ $y=2x+7$
+
+|x  | y |
+|---|---|
+|0|7|
+|1|9|
+"""
+
+# ╔═╡ 97953a60-55c3-46e6-a132-40af7122d9ec
+md"""
+# Page 93
+### Question 17
+$(LocalResource(string(path_to_folder, "\\page93_question_17.jpg")))
+
+The lines are neither parallel, nor perpendicular.
+"""
+
+# ╔═╡ 2c827922-0e25-4bd5-9c6c-d2b90d75ba59
+md"""
+ $2x+3y-3=0$
+
+Rearrange for $y$:
+
+ $3y = - 2x +3$
+
+ $y = -\frac{2}{3}x +1$
+
+|x  | y |
+|---|---|
+|0|1|
+|1|$\frac{1}{3}$|
+
+ $-2x+y+1=0$
+
+Rearrange for $y$:
+
+ $y=2x-1$
+
+|x  | y |
+|---|---|
+|0|-1|
+|1|1|
+"""
+
+# ╔═╡ 5c049ba0-45b6-48ff-b198-1e7df35f7bbf
+md"""
+# Page 93
+### Question 18
+$(LocalResource(string(path_to_folder, "\\page93_question_18.jpg")))
+
+The lines are perpendicular.
+"""
+
+# ╔═╡ 1eb241f6-74b2-4e19-9de9-da350a18861e
+md"""
+ $x+2y-4=0$
+
+Rearrange for $y$:
+
+ $2y=-x+4$
+
+ $y=-\frac{x}{2}+2$
+
+|x  | y |
+|---|---|
+|0|2|
+|1|1.5|
+
+ $2x-y+2=0$
+
+Rearrange for $y$:
+
+ $y = 2x+2$
+
+|x  | y |
+|---|---|
+|0|2|
+|1|4|
+"""
+
+# ╔═╡ b462eb19-a5ec-4652-b389-974af5870631
+md"""
+# Page 94
+Information page.
+"""
+
+# ╔═╡ 726993ba-03fa-4561-97c4-5ac71d5d773e
+md"""
+# Page 95
+### Question 19
+(A,T)(B,Q)(C,R)(D,S)
+
+### Question 20
+(A,R)(B,S)
+
+### Question 21
+(C,Q)(D,T)
+
+### Question 22
+(Q,D)(T,C)
+
+### Question 23
+(R,T)(S,Q)(D,B)(A,C)
+
+### Question 24
+(C)(A)(T)(R)
+
+### Question 25
+$95^{\circ}$
+
+### Question 26
+$75^{\circ}$
+
+### Question 27
+$180 - 78 = 102^{\circ}$
+
+### Question 28
+$180 - 78 = 102^{\circ}$
+
+### Question 29
+$180 - 68 = 112^{\circ}$
+
+### Question 30
+$180 - 120 = 60^{\circ}$
+"""
+
+# ╔═╡ 5fae6d52-89cb-4b97-a539-9137da6f1a1f
+md"""
+# Page 96
+### Question 31
+$15x + 3 = 12x +18$
+
+$15x -12x= 18 -3$
+
+$3x= 15$
+
+$x = \frac{15}{3}$
+
+$x = 5$
+
+To find the value of $m\angle 10$ just plug in the $x=5$ into the formula.
+
+$m\angle 10 = 15x +3$
+
+$m\angle 10 = 15(5) +3$
+
+$m\angle 10 = 78^{\circ}$
+
+### Question 32
+
+$4y = 2(y+15) + (y-1)$
+
+$4y = 2y+30 + y-1$
+
+$4y = 3y+29$
+
+$4y -3y = 29$
+
+$y = 29$
+
+$m\angle 15 = 2(y+15) + (y-1)$
+
+$m\angle 15 = 2(29+15) + (29-1)$
+
+$m\angle 15 = 2(44) + (28)$
+
+$m\angle 15 = 88 + 28$
+
+$m\angle 15 = 88 + 28$
+
+$m\angle 15 = 116^{\circ}$
+
+### Question 33
+
+$3(m+15) +9(m+11) = 180$
+
+$3m+45 +9m+99 = 180$
+
+$12m = 180 - 45 - 99$
+
+$12m = 36$
+
+$m = \frac{36}{12}$
+
+$m=3$
+
+$m\angle 5 = 3(m+15)$
+
+$m\angle 5 = 3m+45$
+
+$m\angle 5 = 3(3)+45$
+
+$m\angle 5 = 9+45$
+
+$m\angle 5 = 54$
+
+$m\angle 13 = 9(m+11)$
+
+$m\angle 13 = 9m+99$
+
+$m\angle 13 = 9(3)+99$
+
+$m\angle 13 = 27+99$
+
+$m\angle 13 = 126$
+"""
+
+# ╔═╡ e978b136-c3ea-4374-b63b-1f7413f1d370
+md"""
+# Page 97
+### Question 34
+It is given that angles $\angle 1$ and $\angle 2$ are the same. Angle $\angle 3$ must be equal to $\angle 2$ as vertical angles are equal. Due to the transitive property of equality, this means that $\angle 1$ is the same as $\angle 3$. This proves that the two lines must be parallel, $H || I$ due to the converse of corresponding angles postulate.
+
+### Question 35
+$(LocalResource(string(path_to_folder, "\\page97_question_35.jpg")))
+"""
+
+# ╔═╡ 7734970a-0658-4104-9ef9-83dbda81d76e
+md"""
+# Page 98
+### Question 36
+!!! warning "Warning"
+	There is a mistake in the example proof. It says that it is given that $\angle Y$ is equal to $\angle Z$ but this is obviously wrong, if you just look at the diagram it can't be right. It makes more sense if it is given that $\angle X$ is equal to $\angle Z$ so I will answer based on this.
+
+It is given that $\angle X$ is equal to $\angle Z$. And due to the linear pair postulate, it is known that $\angle X$ is supplementary to $\angle Y$, which is: $X + Y = 180^{\circ}$. We can substitute $X$ with $Z$, resulting in $m\angle Z + m\angle Y = 180^{\circ}$. Due to the converse of consecutive interior angles theorem we know that $a || b$, that $a$ is parallel to $b$.
+
+### Question 37
+$(LocalResource(string(path_to_folder, "\\page98_question_36.jpg")))
+"""
+
+# ╔═╡ 48ea51bb-9cc8-4299-9d36-6a4f3462d3ee
+md"""
+# Page 99
+### Question 38
+3) Transitivity of equality
+4) Converse of Corresponding Angles Postulate
+
+### Question 39
+It is given that $\angle A$ is equal to $\angle C$. And due to the vertical angles, it is known that $\angle A$ is equal to $\angle B$. Due to transitivity of equality we know that $\angle B$ is equal to $\angle C$. Due to the converse of corresponding angles postulate we know that $G$ is parallel to $H$.
+"""
+
+# ╔═╡ 6a98c0db-279a-4d14-9cb8-8e4f71f53e90
+md"""
+# Page 100
+### Question 1
+$2(x+5) -6 = 20$
+$2x+10 -6 = 20$
+$2x+4 = 20$
+$2x = 20-4$
+$2x = 16$
+$x = 16/2$
+$x=8$
+
+### Question 2
+$3x-5=1$
+$3x = 1+5$
+$3x = 6$
+$x=6/3$
+$x=2$
+
+### Question 3
+!!! warning "Warning"
+	There is a minor typo in their proof in the table. Statement 3 should show -16 on the left hand side of the equation. Not a big deal because the rest is still correct.
+Reasons:
+1. Given
+2. Distributive property of multiplication
+3. Subtraction property
+4. Subtraction property
+5. Division property
+
+### Question 4
+Given: $3y-2=7$. Use the addition property to add 2 on both sides resulting in $3y-2+2=7+2$. Simplify to $3y=9$. Using the division property we divide both sides by $3$, resulting in $y=3$.
+
+### Question 5
+Given: $\frac{1}{4}x + 6 =2$. Using the subtractive property, subtract 6 from both sides, resulting in: $\frac{1}{4}x =-4$. Using multiplicative property, multiply 4 to both sides, resulting in: $x = -16$.
+"""
+
+# ╔═╡ 199114ab-49af-47d0-941b-c9e28d6ca81c
+md"""
+# Page 101
+### Question 6
+$(LocalResource(string(path_to_folder, "\\page101_question_6.jpg")))
+
+### Question 7
+$(LocalResource(string(path_to_folder, "\\page101_question_7.jpg")))
+
+### Question 8
+
+!!! warning "Warning"
+	I haven't seen the sections of the paper discussing this, so the naming of my reasons might not match.
+
+|Statement|Reasons|
+|---|---|
+|ADB = EHF and BDC = FHG| Given|
+|ADB + BDC = ADC|Sum of parts|
+|EHF + BDC = ADC|Substitution|
+|EHF + FHG = ADC|Substitution|
+|EHF + FHG = EHG|Sum of parts|
+|ADC = EHG|Substitution|
+"""
+
+# ╔═╡ 501eabbc-8103-481b-86ae-b511df708415
+md"""
+# Page 102
+### Question 9
+Perpendicular to $y=\frac{1}{2}x -8$, and passes through (4,4).
+
+$m_{perpendicular} = -\frac{1}{0.5} = -2$
+
+$y-y_1 = m(x-x_1)$
+
+$y-4 = -2(x-4)$
+
+$y-4 = -2x+8$
+
+$y = -2x+8 +4$
+
+$y = -2x+12$
+
+### Question 10
+Parallel to $y=\frac{2}{3}x +2$ and passes through $(-5,4)$.
+
+Since it is parallel, the slope is just $\frac{2}{3}$.
+
+$y-y_1 = m(x-x_1)$
+
+$y-4 = \frac{2}{3}(x-(-5))$
+
+$y-4 = \frac{2}{3}(x+5)$
+
+$y-4 = \frac{2}{3}x+\frac{10}{3}$
+
+$y = \frac{2}{3}x+\frac{10}{3} +4$
+
+$y = \frac{2}{3}x+\frac{10}{3} + \frac{12}{3}$
+
+$y = \frac{2}{3}x + \frac{22}{3}$
+
+### Question 11
+Perpendicular to $y=-\frac{1}{3}x-1$ and passes through $(-7,-4)$.
+
+$m_{perpendicular} = -\frac{1}{\frac{1}{3}}$
+
+$m_{perpendicular} = -3$
+
+$y-y_1 = m(x-x_1)$
+
+$y-(-4) = -3(x-(-7))$
+
+$y+4 = -3(x+7)$
+
+$y+4 = -3x-21$
+
+$y = -3x-21 -4$
+
+$y = -3x-25$
+
+### Question 12
+
+Parallel to $y=\frac{1}{7}x-2$ and passes through $(9,-5)$.
+
+Since it is parallel, the slope is just $\frac{1}{7}$.
+
+$y-(-5) = \frac{1}{7}(x-9)$
+
+$y+5 = \frac{1}{7}x-\frac{9}{7}$
+
+$y = \frac{1}{7}x-\frac{9}{7} -5$
+
+$y = \frac{1}{7}x-\frac{9}{7} - \frac{5}{1}$
+
+$y = \frac{1}{7}x-\frac{9}{7} - \frac{35}{7}$
+
+$y = \frac{1}{7}x-\frac{44}{7}$
+"""
+
+# ╔═╡ 9b1f23bc-3ea2-42e7-a7bd-81d50cf3622c
+md"""
+# Page 103
+### Question 13
+$3x+4 = 5x-10$
+
+$4 +10 = 5x -3x$
+
+$14 = 2x$
+
+$\frac{14}{2} = x$
+
+$x = 7$
+
+$m\angle 1 = 3x+4$
+
+$m\angle 1 = 3(7)+4$
+
+$m\angle 1 = 21+4$
+
+$m\angle 1 = 25^{\circ}$
+
+### Question 14
+$3y = 2y +41$
+
+$3y -2y= 41$
+
+$y= 41$
+
+$m\angle 8 = 2y+41$
+
+$m\angle 8 = 2(41)+41$
+
+$m\angle 8 = 82+41$
+
+$m\angle 8 = 123^{\circ}$
+"""
+
+# ╔═╡ e15cbb73-ed81-4416-905a-f78afc7f984b
+md"""
+# Page 104
+### Question 1
+!!! warning "Warning"
+	I'm not exactly sure what this question is asking for, and I don't know what is in page 49. So I'll just give it a shot here.
+
+The formula $f(x) = 3^{x+1}-2$ grows faster than the formula $3^x$ as the exponent is increased by 1. The line is also shifted down by -2, so is lower than the $3^x$ line. See below a plot of both lines.
+
+$(LocalResource(string(path_to_folder, "\\page104_question_1.jpg")))
+"""
+
+# ╔═╡ 53d35a79-af46-4d46-92d6-73691391b506
+md"""
+### Question 2
+$3^x \cdot 3^4 = 3^7$
+
+$x+4 = 7$
+
+$x = 7-4$
+
+$x=3$
+
+### Question 3
+!!! warning "Warning"
+	I think they made a mistake because this is a really difficult question that requires the use of logarithms.
+$4^{6x-4} = 8^{2x+3}$
+If you really want to solve it, it looks like this:
+
+$(LocalResource(string(path_to_folder, "\\page104_question_3.jpg")))
+
+### Question 4
+x intercept at 1,0.
+$(LocalResource(string(path_to_folder, "\\page104_question_4.jpg")))
+
+### Question 5
+x intercept at 0,0.
+$(LocalResource(string(path_to_folder, "\\page104_question_5.jpg")))
+
+### Question 6
+$(LocalResource(string(path_to_folder, "\\page104_question_6.jpg")))
+
+"""
+
+# ╔═╡ 9d524998-0d03-46ef-b6cd-65b3cc91be94
+md"""
+# Page 105
+### Question 7
+$(LocalResource(string(path_to_folder, "\\page105_question_7.jpg")))
+"""
+
+# ╔═╡ 3f7bce85-19d4-4eb3-9778-8a2f40186570
+md"""
+### Question 8
+$f(x) = \frac{1}{4}x +2$
+
+Replace $f(x)$ with $y$.
+
+$y = \frac{1}{4}x +2$
+
+Rearrange for $x$.
+
+$y -2= \frac{1}{4}x$
+
+$4(y -2)= x$
+
+Switch $y$ and $x$.
+
+$4(x -2)= y$
+
+Replace $y$ with $f^{-1}$.
+
+$f^{-1} = 4(x -2)$
+
+Can simplify further...
+
+$f^{-1} = 4x -8$
+
+### Question 9
+Corresponding, congruent.
+
+### Question 10
+Consecutive interior, supplementary.
+
+### Question 11
+Vertical, congruent.
+
+### Question 12
+Alternate exterior, congruent.
+"""
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -1241,5 +1909,31 @@ version = "17.4.0+0"
 # ╟─2c31e4a0-7e44-47df-9906-efdb51d8f88f
 # ╟─c334a3bb-0dc2-4385-8fb9-aa55b34e9f47
 # ╟─ad323545-93b8-4090-a75f-73d7e1b19e53
+# ╟─bffe444c-9a0e-4354-9541-ac487f0e0334
+# ╟─d7f4391c-3f29-4556-b904-5ae1b0835bf7
+# ╟─2793db6e-cb57-49f4-b83a-cbc2b1b58af0
+# ╟─71f885db-f876-43f2-9d31-62740d27f2c0
+# ╟─5128a20c-dd1d-4ea6-84c4-9ccea16fb76f
+# ╟─38727f99-2516-475d-8f44-4607ad58a343
+# ╟─8ba803b6-e18e-4014-8841-603d7d98c13d
+# ╟─d5c7b172-210b-44c4-8134-870787e24ea6
+# ╟─97953a60-55c3-46e6-a132-40af7122d9ec
+# ╟─2c827922-0e25-4bd5-9c6c-d2b90d75ba59
+# ╟─5c049ba0-45b6-48ff-b198-1e7df35f7bbf
+# ╟─1eb241f6-74b2-4e19-9de9-da350a18861e
+# ╟─b462eb19-a5ec-4652-b389-974af5870631
+# ╟─726993ba-03fa-4561-97c4-5ac71d5d773e
+# ╟─5fae6d52-89cb-4b97-a539-9137da6f1a1f
+# ╟─e978b136-c3ea-4374-b63b-1f7413f1d370
+# ╟─7734970a-0658-4104-9ef9-83dbda81d76e
+# ╟─48ea51bb-9cc8-4299-9d36-6a4f3462d3ee
+# ╟─6a98c0db-279a-4d14-9cb8-8e4f71f53e90
+# ╟─199114ab-49af-47d0-941b-c9e28d6ca81c
+# ╟─501eabbc-8103-481b-86ae-b511df708415
+# ╟─9b1f23bc-3ea2-42e7-a7bd-81d50cf3622c
+# ╟─e15cbb73-ed81-4416-905a-f78afc7f984b
+# ╟─53d35a79-af46-4d46-92d6-73691391b506
+# ╟─9d524998-0d03-46ef-b6cd-65b3cc91be94
+# ╟─3f7bce85-19d4-4eb3-9778-8a2f40186570
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
